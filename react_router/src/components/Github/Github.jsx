@@ -7,7 +7,7 @@ function Github() {
     <div className='text-center m-4 bg-gray-600 text-white p-4 text-2xl'>
       Github : {data.followers}
       <img src={data.avatar_url} width={200} alt="" />
-      <p>Current Streak : {data.days}days</p>
+      <p>Current Streak : 3 days</p>
       </div>
   )
 }
